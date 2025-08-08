@@ -7,6 +7,9 @@ PowerBI/* linguist-language=Python
 # SQL files as SQL
 *.sql linguist-language=SQL
 
+*.csv linguist-language=Python
+*.json linguist-language=Python
+
 # Force .ipynb notebooks to Python
 *.ipynb linguist-language=Python
 
