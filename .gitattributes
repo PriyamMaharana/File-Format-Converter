@@ -1,0 +1,14 @@
+# Treat all .pbix files as Python (since Power BI isn't supported)
+*.pbix linguist-language=Python
+
+# Treat all .txt and .md files in PowerBI folder as Python too
+PowerBI/* linguist-language=Python
+
+# SQL files as SQL
+*.sql linguist-language=SQL
+
+# Force .ipynb notebooks to Python
+*.ipynb linguist-language=Python
+
+# ETL scripts
+ETL/* linguist-language=Python
